@@ -4,7 +4,7 @@ Bruno G. Tavares
 
 The purpose of this project is to demonstrate the process of collecting, working with, and cleaning a data set for analysis.
 
-### The project should contain:
+### This project should contain:
 
 1. tidy data set
 
@@ -14,7 +14,7 @@ The purpose of this project is to demonstrate the process of collecting, working
 
 4. R script
 
-### The run_analysis.R script that does the following:
+### The script 'run_analysis.R' does the following:
 
  1. Merges the training and the test sets to create one data set.
 
