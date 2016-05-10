@@ -5,10 +5,10 @@
 
 ## Introduction
 
-Tidy data is a data set that has been merged, cleaned and filtered from a bigger data set that comprises of 3 variables and 5 parts.
+Tidy data is a data set that has been merged, cleaned and filtered from a bigger data set that comprises of 3 subsets and 5 parts.
 
 
-## Variables
+## Subsets
 
 1. The values of 'Activity' consist of data from 'y_train.txt' and 'y_test.txt'
 The types/names of 'Activity' can be found at 'activity_labels.txt'
@@ -23,7 +23,7 @@ The names of the variables 'Features' can be found at 'features.txt'
 
 The source data is divided in the following way:
 
-- 'features.txt': List of all features.
+- 'features.txt': List of all the names of features (variables).
 
 - 'activity_labels.txt': Links the class labels with their activity name.
 
@@ -76,7 +76,9 @@ The steps to create Tidy data are registered on the script *run_analysis.R* and 
  Per the project instructions, we need to produce only a data set with the average of each variable for each activity and subject. That was accomplished with the use of ddply
 
 
-## Tidy data variable list and overview:
+## Variables:
+
+Tidy data variables list and overview
 
 Human Activity Recognition Using Smartphones Tidy Data Set
 
