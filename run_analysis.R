@@ -59,8 +59,6 @@ mean_and_std_features <- featuresNames$V2[grep("mean\\(\\)|std\\(\\)", featuresN
 
 # subset the desired columns
 selectedColumns <- c(as.character(mean_and_std_features), "subject", "activity" )
-
-# correct the column names
 allData <- subset(allData, select=selectedColumns)
 
 
@@ -82,11 +80,10 @@ names(allData) <-gsub("Mag", "Magnitude", names(allData))
 names(allData) <-gsub("BodyBody", "Body", names(allData))
 
 
-# 5. From the data set in step 4, creates a second, independent tidy data set 
+# 5. From the data set in step 4, creates a second, independent tidy data set
 # with the average of each variable for each activity and each subject.
 
 
 finalData <- ddply(allData, .(subject, activity), function(x) colMeans(x[, 1:66]))
 
 write.table(finalData, "tidy.txt", row.name=FALSE)
-
