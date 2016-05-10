@@ -76,7 +76,7 @@ The steps to create Tidy data are registered on the script *run_analysis.R* and 
  Per the project instructions, we need to produce only a data set with the average of each variable for each activity and subject. That was accomplished with the use of ddply
 
 
-## Tidy data overview:
+## Tidy data variable list and overview:
 
 Human Activity Recognition Using Smartphones Tidy Data Set
 
