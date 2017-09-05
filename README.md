@@ -8,7 +8,7 @@ The purpose of this project is to demonstrate the process of collecting, working
 
 1. tidy data set
 
-2. CodeBook.md
+2. [CodeBook.md](https://github.com/bruno78/Getting-Cleaning-Data-Project/blob/master/codeBook.md)
 
 3. Readme.md
 
